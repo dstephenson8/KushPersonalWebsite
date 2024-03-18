@@ -39,7 +39,9 @@ body{
 
 /* this colors name in publications list */
 .pub_color{
-    color: #999999;
+    /*color: #999999;*/
+    color: #888888;
+    /*color: #060;*/
     /*color: #605e8f;*/
 }
 
@@ -282,9 +284,19 @@ footer{
     justify-content: space-around;
 }
 
-
-
 /* End All */
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* HomePage CSS */
@@ -315,6 +327,7 @@ footer{
 
 .socialLinksMain{
     margin: 1em;
+    padding: 10px 10px 10px 10px; /* top, right, bottom, left */
     font-size: 20px;
     text-decoration: none;
 }
@@ -331,6 +344,7 @@ footer{
 .col1{
     width: 40%;
     padding-top: 10%;
+    padding: 10px 90px 10px 90px; /* top, right, bottom, left */
 }
 
 
@@ -343,7 +357,9 @@ footer{
     align-self: center; 
     text-align: left;
     margin-top: 1.5em;
+    /*margin-bottom: 1.5em;*/
     padding: 10px 90px 10px 90px; /* top, right, bottom, left */
+    /*padding: */
     border-left: 1px solid lightgrey;
 }
 
@@ -376,7 +392,7 @@ footer{
         width: 300px;
        
         /* padding-right: 100px; */
-        ;
+
     }
     
     
@@ -387,11 +403,11 @@ footer{
         /* height: 50vh;  */
         width: 300px;
         text-align: left;
-        margin: 0;
+        /*margin: 0;*/
+        margin: 10px 10px 10px 10px; /* top, right, bottom, left */
         border-left: none;
         padding: 1.2em;
-        margin-top: 0;
-      
+
     }
         .socialLinksContainer{
             margin: 1px;
@@ -428,6 +444,14 @@ footer{
 
 /* Publications CSS */
 
+
+/* ensure italicized font is not also bolded */ 
+/*
+.italicnotbold{
+    font-style: italic;
+    font-weight: normal;
+}​
+*/
 
 .publishedPaperMain{
     padding: 0 9em 4em 9em;
